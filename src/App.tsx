@@ -26,7 +26,7 @@ function App() {
         Events List
       </Typography>
       <Grid container spacing={2}>
-        {events.map((event, index) => (
+        {events.map((event: any, index: any) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <div style={{ border: '1px solid #ccc', padding: '16px', borderRadius: '8px' }}>
               <Typography variant="h6">{event.name}</Typography>
